@@ -55,7 +55,7 @@ ul {
   margin-right: 93px;
 }
 img {
-  display: 
+  display: block
   max-width: 100%;
   height: auto;
 }
@@ -298,6 +298,7 @@ h1, h2, h3, p {
   display: flex;
   gap: 8px;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .list-portfol {
@@ -313,7 +314,19 @@ h1, h2, h3, p {
   line-height: calc(36 / 16);
   letter-spacing: 0.06em;
   color: var(--title-text-color);
+  margin-bottom: 4px;
 }
+.portfol-item { 
+  border-bottom: 1px solid #ececec;
+  border-left: 1px solid #ececec;
+  border-right: 1px solid #ececec;
+  padding-left: 24px;
+  padding-right: 24px;
+  
+  padding-bottom: 20px;
+}
+  
+  
 .proects {
   font-weight: 400;
   font-size: 16px;
@@ -331,6 +344,8 @@ h1, h2, h3, p {
   letter-spacing: 0.03em;
   background-color: var(--secondary-white-color);
   color: var(--title-text-color);
+  border: 1px solid var(--secondary-white-color);
+  border-radius: 4px;
 }
 .title-btn:hover,
 .title-btn:focus {
@@ -348,6 +363,8 @@ h1, h2, h3, p {
   letter-spacing: 0.03em;
   color: var(--secondary-white-color);
   cursor: pointer;
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
 }
 .header-link-current {
   color: var(--accent-color);
