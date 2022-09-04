@@ -396,4 +396,24 @@ h1, h2, h3, p {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+ .list-icons {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 94px;
+ }
+ .fon-icon {
+  display: block;
+  width: 270px;
+  background-color: #f5f4fa;
+ text-align: center;
+ margin-top: 94px;
+ margin-bottom: 30px;
+ }
+.contacts-icon {
+  fill: #ffffff;
  
+}
+.contacts-icon-team{
+ fill: #afb1b8;
+}
