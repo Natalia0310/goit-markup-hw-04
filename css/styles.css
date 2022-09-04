@@ -417,3 +417,15 @@ h1, h2, h3, p {
 .contacts-icon-team{
  fill: #afb1b8;
 }
+.social {
+  display: flex;
+  gap: 10px;
+  margin-top: 16px;
+  justify-content: center;
+}
+.social-address {
+  display: flex;
+  gap: 10px;
+  margin-top: 16px;
+  justify-content: center;
+}
