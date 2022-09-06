@@ -128,10 +128,18 @@ img {
 
 .hero {
   background-color: var(--dark-color);
+  max-width: 1600px;
   text-align: center;
   padding-bottom: 200px;
   padding-top: 200px;
   background-image: url(../images/Img.svg);
+  background-position: ;
+  background-repeat: no-repeat;
+  background: center;
+  margin-left: auto;
+  margin-left: auto;
+  background-image: linear-gradient(
+    var(-));
   
   
 }
