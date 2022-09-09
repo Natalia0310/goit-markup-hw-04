@@ -15,26 +15,38 @@ Single-colored icons can be modified like so:
 }
 ========================================== */
 
+.smartphone {
+  width: 0.625em;
+}
+
+.envelope-hover {
+  width: 1.3330078125em;
+}
+
+.envelope {
+  width: 1.3330078125em;
+}
+
 .Logo1 {
-  width: 1.7666015625em;
+  width: 1.78125em;
 }
 
 .Logo2 {
-  width: 1.7666015625em;
+  width: 1.78125em;
 }
 
 .Logo3 {
-  width: 1.7666015625em;
+  width: 1.78125em;
 }
 
 .Logo4 {
-  width: 1.7666015625em;
+  width: 1.78125em;
 }
 
 .Logo5 {
-  width: 1.7666015625em;
+  width: 1.78125em;
 }
 
 .Logo6 {
-  width: 1.7666015625em;
+  width: 1.78125em;
 }
