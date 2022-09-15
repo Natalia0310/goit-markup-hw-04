@@ -30,9 +30,9 @@ ul {
   align-items: center;
 }
 .header-mail {
-  margin-right: 10px;
-  color: var(--title-text-color);
-}
+  color: var(--primary-text-color);
+  }
+  
 .header-mail:hover, focus
  {
   fill: #2196f3;
@@ -85,6 +85,8 @@ img {
   margin-right: 0px;
 }
 .header-contact-link {
+  display: flex;
+  align-items: center;
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -112,7 +114,7 @@ img {
 }
 
 .header-link {
-  display: block;
+  display: flex;
   align-items: center;
   line-height: calc(16 / 14);
   color: var(--primary-text-color);
@@ -121,7 +123,7 @@ img {
   font-size: 14px;
   letter-spacing: 0.02em;
   list-style: none;
-  gap: 50px;
+  gap: 10px;
   padding-top: 32px;
   padding-bottom: 32px;
 }
